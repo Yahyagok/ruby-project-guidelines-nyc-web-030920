@@ -5,14 +5,14 @@ Meetup.destroy_all
 
 
 
-c1 = Company.create(name: "Bully Restourant", location: "New York City", type: "Restaurant",capacity: 50  )
-c2 = Company.create(name: "A and Z", location: "Brooklyn", type: "Book store",capacity: 30  )
-c3 = Company.create(name: "32nd Bar", location: "Queens", type: "Bar",capacity: 15  )
-c4 = Company.create(name: "Kaplan English School", location: "Staten Island", type: "Learning",capacity: 52  )
-c5 = Company.create(name: "improve you", location: "New York City", type: "Business",capacity: 20  )
-c6 = Company.create(name: "Alicia Art Museum", location: "New York City", type: "Art",capacity: 25 )
-c7 = Company.create(name: "New York Film Endustry", location: "New York City", type: "Business",capacity: 35  )
-c8 = Company.create(name: "come along", location: "New York", type: "Tech",capacity: 20  )
+c1 = Company.create(name: "Bully Restourant", location: "New York City", category: "Restaurant",capacity: 50  )
+c2 = Company.create(name: "A and Z", location: "Brooklyn", category: "Book store",capacity: 30  )
+c3 = Company.create(name: "32nd Bar", location: "Queens", category: "Bar",capacity: 15  )
+c4 = Company.create(name: "Kaplan English School", location: "Staten Island", category: "Learning",capacity: 52  )
+c5 = Company.create(name: "improve you", location: "New York City", category: "Business",capacity: 20  )
+c6 = Company.create(name: "Alicia Art Museum", location: "New York City", category: "Art",capacity: 25 )
+c7 = Company.create(name: "New York Film Endustry", location: "New York City", category: "Business",capacity: 35  )
+c8 = Company.create(name: "come along", location: "New York", category: "Tech",capacity: 20  )
 
 m1 = Meetup.create(capacity: 1, discount_percent:20, this_weeks_event:" film", book:"nil", film: "three mokey ", business: "nil", tech:"nil", art:"nil", photograpy:"nil", learning: "nil")
 m2 = Meetup.create(capacity: 2, discount_percent:20, this_weeks_event:"art", book:"nil" , film: "nil", business: "nil", tech:"nil", art:"going to withney musium", photograpy:"withney museum", learning: "nil")

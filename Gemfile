@@ -8,3 +8,5 @@ gem "pry"
 gem "require_all"
 gem 'rake'
 gem 'faker'
+gem 'colorize'
+gem 'lolize'
