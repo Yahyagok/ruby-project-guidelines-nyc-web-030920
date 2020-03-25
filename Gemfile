@@ -10,3 +10,9 @@ gem 'rake'
 gem 'faker'
 gem 'colorize'
 gem 'lolize'
+gem 'tty-prompt'
+gem 'pastel'
+gem 'tty-font'
+
+
+

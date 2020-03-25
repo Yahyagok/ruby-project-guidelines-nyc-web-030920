@@ -4,8 +4,7 @@ class CreateCompanies < ActiveRecord::Migration[5.0]
       t.string :name 
       t.string :location 
       t.string :type
-      t.integer :capacity
-      
+      t.integer :capacity  
     end 
   end
 end
