@@ -1,7 +1,9 @@
 require 'bundler'
 Bundler.require
 
+ActiveRecord::Base.logger = nil
 
+ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'db/development.db')
 
@@ -11,5 +13,6 @@ ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'db/develo
 require_all 'app'
 require_all 'bin'
 
-ActiveRecord::Base.logger = nil
-ActiveRecord::Base.logger = Logger.new(STDOUT)
+
+
+
